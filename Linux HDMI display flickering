@@ -1,0 +1,7 @@
+I have connected secondary screen via HDMI port to ubuntu 20.04 installed laptop but the secondary screen goes black randomly or flickering.
+
+Solution : Run the below command in terminal to resolve the flickering 
+
+<UserName>:~$ xset -dpms
+
+After running xset -dpms it resolved permanently.
